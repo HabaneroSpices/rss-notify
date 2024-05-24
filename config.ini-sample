@@ -1,0 +1,7 @@
+[common]
+timer = 3600
+webhook_url = 
+#
+# Multiple entries seperated by <space>|<space>
+rss_feeds = 
+search_strings = 

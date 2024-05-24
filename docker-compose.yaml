@@ -1,0 +1,11 @@
+services:
+  minecraft:
+    image: "habanerospices/rss-notify:latest"
+    restart: always
+    build: .
+    container_name: "rss-notify"
+    environment:
+      PUID: ${UID}
+      PGID: ${GID}
+    volumes:
+      - "${PWD}/config:/user:rw"
