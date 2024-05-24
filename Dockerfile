@@ -1,6 +1,11 @@
 # Use an official Python runtime as a parent image
 FROM python:3.10-slim
 
+
+LABEL org.opencontainers.image.source=https://github.com/habanerospices/rss-notify
+LABEL org.opencontainers.image.description="rss-notify"
+LABEL org.opencontainers.image.licenses=MIT
+
 RUN apt-get update && apt-get install -y gosu;
 
 # Set the working directory in the container
