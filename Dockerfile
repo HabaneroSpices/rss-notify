@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 
-LABEL org.opencontainers.image.source=https://github.com/habanerospices/rss-notify
+LABEL org.opencontainers.image.source="https://github.com/habanerospices/rss-notify"
 LABEL org.opencontainers.image.description="rss-notify"
 LABEL org.opencontainers.image.licenses=MIT
 
